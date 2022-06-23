@@ -18,7 +18,7 @@ class VisaApplicationMysqlApplicationTests {
 	@Autowired
 	private VisaRepository visaRepository;
 
-	
+	@Test
 	void testVisaTypeCreation() {
 		
 		Visa visa = new Visa();
@@ -32,7 +32,7 @@ class VisaApplicationMysqlApplicationTests {
 		assertNotNull(newVisaType);
 	}
 
-	@Test
+	
 	void testCountOfVisas() {
 		
 		List<Visa> visaTypes = visaRepository.findAll();
