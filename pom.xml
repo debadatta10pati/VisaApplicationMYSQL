@@ -7,11 +7,11 @@
 		<version>2.6.8</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>VisaApplicationMYSQL</groupId>
-	<artifactId>VisaApplicationMYSQL</artifactId>
+	<groupId>VisaApplicationFinal</groupId>
+	<artifactId>VisaApplicationFinal</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>VisaApplicationMYSQL</name>
-	<description>Demo project for Spring Boot</description>
+	<name>VisaApplicationFinal</name>
+	<description>Solution for visa application</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
